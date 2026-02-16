@@ -1,7 +1,16 @@
 .index {background-color: blueviolet;
+   
+   list-style: none;
+   
 }
 .lasagna {background-color: aquamarine;
 }
 .pizza {background-color: chartreuse;
 }
-.taco {background-color: brown;}
+.taco {background-color: brown;
+}
+.odin { text-align: center;
+}
+.body{ background-color: lightgrey;
+
+}
