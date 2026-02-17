@@ -14,3 +14,26 @@
 .body{ background-color: lightgrey;
 
 }
+.link {
+    text-align: center;
+}
+.link a:link {
+  color: black;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.link a:visited {
+  
+  color: purple;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.link a:active {
+  
+  color: green;
+}
