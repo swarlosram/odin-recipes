@@ -96,3 +96,18 @@ ul.recipes {
   text-align: center;
   line-height: 1.2;
 }
+.title-1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.lasagna p {
+  text-align: center;
+  font-size: 1.2rem;
+}
