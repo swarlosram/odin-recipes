@@ -2,7 +2,6 @@
   background-color: blueviolet;
 
   list-style: none;
-
 }
 
 .lasagna {
@@ -23,7 +22,6 @@
 
 .body {
   background-color: lightgrey;
-
 }
 
 .link {
@@ -37,7 +35,6 @@
 }
 
 .link a:visited {
-
   color: purple;
 }
 
@@ -47,7 +44,6 @@
 }
 
 .link a:active {
-
   color: green;
 }
 
@@ -56,7 +52,13 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
 }
 
 h1.odin {
@@ -152,4 +154,33 @@ ul.recipes {
 
 .lasagna h1 {
   text-align: center;
+}
+.ingredients-list {
+  display: flex;
+  justify-content: center;
+}
+.step-1 {
+  display: flex;
+  justify-content: center;
+}
+.step-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.step-1 li {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-weight: bolder;
+}
+.step-1 li p {
+  font-weight: normal;
+}
+.step-2 li {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-weight: bolder;
+}
+.step-2 li p {
+  font-weight: normal;
 }
