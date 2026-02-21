@@ -1,22 +1,35 @@
-.index {background-color: blueviolet;
-   
-   list-style: none;
-   
-}
-.lasagna {background-color: brown;
-}
-.pizza {background-color: chartreuse;
-}
-.taco {background-color: brown;
-}
-.odin { text-align: center;
-}
-.body{ background-color: lightgrey;
+.index {
+  background-color: blueviolet;
+
+  list-style: none;
 
 }
-.link {
-    text-align: center;
+
+.lasagna {
+  background-color: brown;
 }
+
+.pizza {
+  background-color: chartreuse;
+}
+
+.taco {
+  background-color: brown;
+}
+
+.odin {
+  text-align: center;
+}
+
+.body {
+  background-color: lightgrey;
+
+}
+
+.link {
+  text-align: center;
+}
+
 .link a:link {
   color: black;
   font-size: 60px;
@@ -24,7 +37,7 @@
 }
 
 .link a:visited {
-  
+
   color: purple;
 }
 
@@ -34,7 +47,7 @@
 }
 
 .link a:active {
-  
+
   color: green;
 }
 
@@ -59,21 +72,26 @@ ul.recipes {
   padding: 0;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: center; /* center the row(s) */
-  align-items: flex-start;  /* keep each card aligned to the top */
+  justify-content: center;
+  /* center the row(s) */
+  align-items: flex-start;
+  /* keep each card aligned to the top */
   max-width: 1100px;
 }
 
 /* each card */
 .recipe {
-  width: 250px; /* match image width or use responsive value */
+  width: 250px;
+  /* match image width or use responsive value */
 }
 
 /* link contains title on top and image below, centered */
 .recipe a {
   display: flex;
-  flex-direction: column; /* title above image */
-  align-items: center;    /* center text and image horizontally */
+  flex-direction: column;
+  /* title above image */
+  align-items: center;
+  /* center text and image horizontally */
   justify-content: flex-start;
   gap: 0.5rem;
   text-decoration: none;
@@ -96,6 +114,7 @@ ul.recipes {
   text-align: center;
   line-height: 1.2;
 }
+
 .title-1 {
   text-align: center;
   font-size: 2rem;
@@ -107,18 +126,30 @@ ul.recipes {
   justify-content: center;
   margin-bottom: 1rem;
 }
+
 .lasagna p {
   text-align: center;
   font-size: 1.2rem;
 }
+
 .pizza h1 {
   text-align: center;
 }
+
 .pizza img {
   display: block;
   margin: 0 auto;
 }
+
 .pizza p {
   text-align: center;
   font-size: 1.2rem;
+}
+
+.lasagna h2 {
+  text-align: center;
+}
+
+.lasagna h1 {
+  text-align: center;
 }
