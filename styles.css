@@ -111,3 +111,14 @@ ul.recipes {
   text-align: center;
   font-size: 1.2rem;
 }
+.pizza h1 {
+  text-align: center;
+}
+.pizza img {
+  display: block;
+  margin: 0 auto;
+}
+.pizza p {
+  text-align: center;
+  font-size: 1.2rem;
+}
