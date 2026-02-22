@@ -159,28 +159,21 @@ ul.recipes {
   display: flex;
   justify-content: center;
 }
-.step-1 {
-  display: flex;
-  justify-content: center;
+
+.step-1
+{
+  text-align: center;
+  font-size: 1.2rem;
 }
-.step-2 {
-  display: flex;
-  justify-content: center;
+.step-1 li {
+  font-weight: bolder;
 }
 
-.step-1 li {
-  font-size: 1.2rem;
-  font-weight: bolder;
-  font-weight: bolder;
-}
-.step-1 li p {
+.step-1 p {
   font-weight: normal;
 }
-.step-2 li {
-  font-size: 1.2rem;
-  font-weight: bolder;
-  font-weight: bolder;
-}
-.step-2 li p {
-  font-weight: normal;
+.step-1 ol {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
 }
