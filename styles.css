@@ -5,8 +5,10 @@
 }
 
 .lasagna {
-  background-color: brown;
+  background: lightgray;
+ 
 }
+
 
 .pizza {
   background-color: chartreuse;
@@ -176,4 +178,27 @@ ul.recipes {
   list-style-position: inside;
   padding-left: 0;
   text-align: center;
+}
+#baking {
+  font-weight; lighter;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.step-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.step-3 ol {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+} 
+.step-3 li {
+  font-weight: bolder;
+}
+.step-3 p {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.2rem;
 }
