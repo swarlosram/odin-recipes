@@ -1,22 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="../styles.css" />
+
+    <!-- Character encoding -->
     <meta charset="UTF-8" />
+
+    <!-- Browser tab title -->
     <title>Lasagna</title>
   </head>
 
+  <!-- Body class used for page-specific styling -->
   <body class="lasagna">
-    <div class="link"><a href="../index.html">Home</a></div>
 
+    <!-- Navigation: Link back to homepage -->
+    <div class="link">
+      <a href="../index.html">Home</a>
+    </div>
+
+    <!-- Main page title -->
     <h1 class="title-1">Lasagna</h1>
+
+    <!-- Recipe image container -->
     <div class="photo">
       <img src="../images/homemade-lasagna.webp" alt="Lasagna" width="250" />
     </div>
 
+    <!-- Main recipe content -->
     <article>
-      <h1>Lasagna Recipe</h1>
 
+      <!-- Article heading -->
+      <h2>Lasagna Recipe</h2>
+
+      <!-- ================= Description Section ================= -->
       <section>
         <h2>Description</h2>
         <p>
@@ -27,8 +44,11 @@
         </p>
       </section>
 
+      <!-- ================= Ingredients Section ================= -->
       <section>
         <h2>Ingredients</h2>
+
+        <!-- Container for styling ingredient list -->
         <div class="ingredients-list">
           <ul>
             <li>12 lasagna noodles</li>
@@ -44,37 +64,47 @@
         </div>
       </section>
 
+      <!-- ================= Steps Section ================= -->
       <section>
         <h2>Steps</h2>
 
+        <!-- Recipe info paragraph -->
         <p>
-          This recipe serves 6. Preparation time is about 20 minutes, and
-          cooking time is around 40 minutes.
+          This recipe serves 6. Preparation time is about 20 minutes,
+          and cooking time is around 40 minutes.
         </p>
+
+        <!-- Step Group 1: Cooking preparation -->
         <div class="step-1">
           <ol>
             <li>
               Cook the noodles
               <p>
-                boil lasagna noodles according to package instructions. Drain
-                and set aside.
+                Boil lasagna noodles according to package instructions.
+                Drain and set aside.
               </p>
             </li>
+
             <li>
               Prepare the meat sauce
               <p>In a pan, cook ground beef with garlic until browned.</p>
               <p>Add pasta sauce, salt, and pepper. Simmer for 10 minutes.</p>
             </li>
+
             <li>
               Mix the cheese
               <p>In a bowl, combine ricotta cheese, egg, and Parmesan.</p>
             </li>
+
             <li>
               Layer the lasagna
+              <!-- This ID could be used for CSS styling or linking -->
               <p id="baking">In a baking dish:</p>
             </li>
           </ol>
         </div>
+
+        <!-- Step Group 2: Layering instructions -->
         <div class="step-2">
           <ul>
             <li>Spread meat sauce on the bottom</li>
@@ -84,12 +114,15 @@
             <li>Repeat layers.</li>
           </ul>
         </div>
+
+        <!-- Step Group 3: Final baking -->
         <div class="step-3">
           <ol>
             <li>
               Bake
               <p>Bake at 375°F (190°C) for 30–35 minutes.</p>
             </li>
+
             <li>
               Rest and serve
               <p>Let lasagna cool for 10 minutes before cutting.</p>
@@ -98,6 +131,7 @@
         </div>
       </section>
 
+      <!-- ================= Tips Section ================= -->
       <section>
         <h2>Tips</h2>
         <ol>
@@ -106,8 +140,11 @@
           <li>Tastes even better the next day 🙂</li>
         </ol>
       </section>
+
     </article>
 
+    <!-- Extra closing sentence -->
     <p>This is a delicious homemade lasagna recipe.</p>
+
   </body>
 </html>
