@@ -6,10 +6,7 @@
 
 .lasagna {
   background: lightgray;
- 
 }
-
-
 .pizza {
   background-color: chartreuse;
 }
@@ -162,8 +159,7 @@ ul.recipes {
   justify-content: center;
 }
 
-.step-1
-{
+.step-1 {
   text-align: center;
   font-size: 1.2rem;
 }
@@ -193,7 +189,7 @@ ul.recipes {
   list-style-position: inside;
   padding-left: 0;
   text-align: center;
-} 
+}
 .step-3 li {
   font-weight: bolder;
 }
